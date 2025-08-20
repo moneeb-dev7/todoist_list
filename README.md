@@ -1,1 +1,1 @@
-This repo is for managing your daily tasks
+This repo is for managing your daily tasks, made using python language
