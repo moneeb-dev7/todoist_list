@@ -34,7 +34,7 @@ def compile_task():
         user_task for user_task in tasks if user_task["complite"] == False]
     if non_complite:
         for i, user_task in enumerate(non_complite):
-            print(f"{i+1}- {user_task['uer_task']}")
+            print(f"{i+1}- {user_task['user_task']}")
             print('-'*30)
         user_com = int(input("which task you had complite : "))
         non_complite[user_com-1]["complite"] = True
